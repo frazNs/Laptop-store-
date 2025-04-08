@@ -1,46 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laptops</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>Products | Laptop Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Our Laptops</h1>
-    </header>
-
-    <section class="product-list">
-        <div class="product">
-            <img src="DELL XPS 15 7590.jpg" alt="Laptop 1">
-            <h3>DELL XPS 15 7590</h3>
-            <p>$1,299.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-            <img src="MacBook Pro M2.jpg" alt="Laptop 2">
-            <h3>MacBook Pro M2</h3>
-            <p>$1,999.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-            <img src="HP Spectre X360 16 (2 in 1) (2022).jpg" alt="Laptop 3">
-            <h3>HP Spectre X360</h3>
-            <p>$1,699.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-            <img src="Lenovo IdeaPad Slim 3i 15_6_ Laptop i3 8GB 256GB.jpg" alt="Laptop 4">
-            <h3>Lenovo IdeaPad</h3>
-            <p>$1,77.99</p>
-            <button>Add to Cart</button>
-        </div>
-
-    </section>
-
-    <footer>
-        <p>© 2025 Laptop Store. All rights reserved.</p>
-    </footer>
+<body class="bg-white text-black">
+  <h1 class="text-center text-3xl font-bold py-4 bg-gray-200">Our Products</h1>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+    <div class="text-center border p-4">
+      <img src="images/laptop1.jpg" alt="Laptop 1" class="mx-auto mb-2 w-40 h-40 object-cover">
+      <p class="font-bold">Dell XPS 13</p>
+      <p>$1299</p>
+    </div>
+    <div class="text-center border p-4">
+      <img src="images/laptop2.jpg" alt="Laptop 2" class="mx-auto mb-2 w-40 h-40 object-cover">
+      <p class="font-bold">MacBook Air</p>
+      <p>$999</p>
+    </div>
+    <div class="text-center border p-4">
+      <img src="images/laptop3.jpg" alt="Laptop 3" class="mx-auto mb-2 w-40 h-40 object-cover">
+      <p class="font-bold">HP Envy x360</p>
+      <p>$1099</p>
+    </div>
+  </div>
 </body>
 </html>
